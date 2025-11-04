@@ -12,7 +12,7 @@ na pasta prova/
 npx create-react-app front --template typescript
 cd front
 npm install axios react-router-dom
-
+npm i react-router-dom
 CRUD GENERICO
 // src/pages/Cadastro.tsx
 import { useState } from "react";
