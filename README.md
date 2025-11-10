@@ -19,7 +19,16 @@ Corrigir dependências quebradas	npm audit fix	Corrige falhas leves
 Remover módulos e reinstalar	rmdir /s /q node_modules && del package-lock.json && npm i
 
 
+# Models de Porduto generio front
 
+export default interface Produto{
+   id? : string;
+   nome : string;
+   descricao : string;
+   quantidade : number;
+   preco : number;
+   criadoEm? : string; 
+}
 
 
 na pasta prova/
