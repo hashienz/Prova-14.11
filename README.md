@@ -8,6 +8,20 @@ dotnet run
 
 options.UseSqlite("Data Source=app.db");
 
+# Comandos Importntes 
+
+Instalar dependências	npm i	Baixa tudo que está no package.json
+
+Rodar o projeto	npm start
+
+Corrigir dependências quebradas	npm audit fix	Corrige falhas leves
+
+Remover módulos e reinstalar	rmdir /s /q node_modules && del package-lock.json && npm i
+
+
+
+
+
 na pasta prova/
 npx create-react-app front --template typescript
 cd front
