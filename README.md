@@ -3,8 +3,10 @@
 Isso recria o banco e roda o servidor.
 /api
 dotnet restore
+dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run
+
 
 options.UseSqlite("Data Source=app.db");
 
